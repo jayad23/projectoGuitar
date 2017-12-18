@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Cry Baby Guitar Store</title>
+		<link rel="stylesheet" type="text/css" href="newIndex.css">
+		<link href="https://fonts.googleapis.com/css?family=Cuprum|Pacifico" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="fonts.css">
+	</head>
+	<body>
+		<!--- 1st Section -->
+		<section class="f_section">
+			<header class="header"><!--- header -->
+		 		<h1>Cry Baby, Cry</h1> <!--- Website´s Name -->
+		  		<nav class="menu"><!--- ménú -->
+		  			<ul id="menu_list">
+		  				<li><a href="">Guitars</a></li>
+		  				<li><a href="newIndex.html">HOME</a></li>
+		  				<li><a href="prices.html">Prices</a></li>
+		  			</ul>
+		  		</nav>   
+			</header>
+		</section>
+
+		<!--GUITARS-->
+
+		<div class="guitars">
+			<section class="guitar_list">
+				<p><strong>Choose our Signature</strong></p>
+				<label for="Slash">
+					<input type="radio" name="signature" value="Slash" id="Slash"><span>Slash</span>
+				</label>
+				<label for="Billie Joe">
+					<input type="radio" name="signature" value="Billie Joe" id="Billie Joe"><span>Billie Joe</span>
+				</label>
+				<label for="Eric Clapton">
+					<input type="radio" name="signature" value="Eric Clapton" id="Eric Clapton"><span>Eric Clapton</span>
+				</label>
+				<label for="The Edge">
+					<input type="radio" name="signature" value="The Edge" id="The Edge"><span>The Edge</span>
+				</label>
+				<div>
+					<button class="btn_guitars">Others</button>
+				</div>
+			</section>
+			<section class="guitar_display">
+				<div lass="guitars1">
+					<figure>
+						<img src="img/catalog-1.jpg" alt="LesPaul GoldTop"/>
+					</figure>
+					<figure>
+						<img src="img/catalog-2.jpg" alt="LesPaul GrayBody"/>
+					</figure>
+				</div>
+				<div class="guitars2">
+					<figure>
+						<img src="img/catalog-3.jpg" alt="LesPaul FullBlack"/>
+					</figure>
+					<figure>
+						<img src="img/catalog-4.jpg" alt="LesPaul Customised"/>
+					</figure>					
+				</div>				
+			</section>
+		</div>
+		
+	
+		<!--- 4th Section -->
+		<section class="footer"><!--- Footer -->
+			<div class="container">
+				<div class="left">
+					<img src="img/logo.png" alt="Les Paul Logo"/>
+					<div class="info">
+						<a href="tel:+573016368707"><strong>Phone Number</strong><span>Dial</span></a>
+						<a href="mailto:jayadamselementary@gmail.com"><strong>E-Mail</strong><span>hellsdent@html.com</span></a>
+					</div>
+				</div>
+				<div class="right">
+					<div class="right_left">
+						<form class="app_form">
+							<div class="right_left_top_info">
+								<label for="name"><strong>Name</strong></label>
+								<input type="text" name="name" placeholder="Type Here..." Here..." id="name" required="true"/>
+								<label for="email"><strong>E-Mail</strong></label>
+								<input type="email" name="email" placeholder="@" id="email" required="email"/>
+							</div>
+							<div class="right_left_middle_sex">
+								<label for="man">
+								<input type="radio" name="sex" id="man" value="man"/>Man
+								</label>
+								<label for="woman">
+								<input type="radio" name="sex" id="woman" value="woman"/>Woman 
+							</label>
+							</div>
+							<div class="right_left_bottom_interest">
+								<div>
+									<label for="Guarrantee">
+										<input type="checkbox" name="Guarrantee" id="Guarrantee"/><span>Guarrantee</span>
+									</label>
+									<label for="Budget">
+										<input type="checkbox" name="Budget" id="Budget"/><span>Budget</span> 
+									</label>
+								</div>
+								<div>
+									<label for="Delivery">
+										<input type="checkbox" name="Delivery" id="Delivery"/><span>Delivery</span></label>
+									<label for="Work With Us" id="Work_with_us">
+										<input type="checkbox" name="Work With Us" id="Work With Us"/><span>Work With Us</span> 
+									</label>
+								</div>	
+							</div>						
+						</form>
+					</div>
+					<div class="right_right">
+						<label for="comments">Word Your Thoughts!</label>
+						<textarea id="comments" rows="7"></textarea>
+						<div>
+					        <input type="Submit" name="comments"/>		
+						</div>
+					</div>				
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
